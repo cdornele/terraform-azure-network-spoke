@@ -1,0 +1,19 @@
+# Changelog
+
+## [1.0.0]
+
+- Added custom dns servers options;
+- Added subnets;
+- Fixed subnets issues;
+- Added Network Security Group;
+- Network Security Group subnets assigments;
+- Fixed name of NSG;
+- Added route tables;
+- Route tables subnets assigments;
+- Fixed providers;
+- Added option to not use route tables;
+- Added new example;
+
+## [2.0.0]
+
+> **Initial** : Second version of module;
