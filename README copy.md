@@ -1,5 +1,4 @@
-# terraform-azure-network-spoke
-Azure Virtual Network - Spoke - Terraform Module
+# myCD-terraform-azure-spoke-virtual-network
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
