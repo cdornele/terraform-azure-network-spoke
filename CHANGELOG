@@ -16,4 +16,8 @@
 
 ## [2.0.0]
 
-> **Initial** : Second version of module;
+- Second version of module;
+
+## [2.0.1]
+
+- Fixed subnets delegation block;

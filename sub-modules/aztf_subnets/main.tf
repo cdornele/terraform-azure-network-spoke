@@ -29,7 +29,7 @@ resource "azurerm_subnet" "this" {
       name = try(var.settings.delegation.name)
 
       service_delegation {
-        name    = try(var.settings.delegation.service_delegation)
+        name    = try(var.settings.delegation.service_delegation.name)
         actions = lookup(var.settings.delegation, "actions", null)
       }
     }
