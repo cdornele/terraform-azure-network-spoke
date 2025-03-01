@@ -21,3 +21,7 @@
 ## [2.0.1]
 
 - Fixed subnets delegation block;
+
+## [2.0.2]
+
+- Addes lifecycle for subnet delegation.
