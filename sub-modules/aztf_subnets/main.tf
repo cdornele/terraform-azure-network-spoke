@@ -34,6 +34,11 @@ resource "azurerm_subnet" "this" {
       }
     }
   }
+  lifecycle {
+    ignore_changes = [
+      delegation[0].service_delegation[0].actions
+    ]
+  }
 }
 
 # end
