@@ -1,5 +1,5 @@
 #--------------------------------------------*--------------------------------------------
-#  Sub-Module: Azure Network Security Groups
+#  Sub-Module: Azure Network Security Groups #
 #--------------------------------------------*--------------------------------------------
 
 resource "azurecaf_name" "this" {
