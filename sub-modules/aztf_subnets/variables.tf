@@ -4,6 +4,7 @@
 
 variable "settings" {
   description = "Map of settings for the subnet"
+  type        = any
 }
 
 variable "resource_group" {

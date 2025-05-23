@@ -20,6 +20,6 @@ module "network" {
   tags = lookup(var.settings, "tags", {})
 }
 
-output "subnetXXX" {
-  value = module.network.subnets[applicaiton]
+output "subnet_application" {
+  value = module.network.subnets["application"]
 }

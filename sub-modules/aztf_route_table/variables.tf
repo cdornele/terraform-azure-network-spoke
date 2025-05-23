@@ -4,6 +4,7 @@
 
 variable "settings" {
   description = "Map of settings for the route table"
+  type        = any
 }
 
 variable "resource_group" {
@@ -18,6 +19,7 @@ variable "location" {
 
 variable "subnets" {
   description = "Map of subnets to create route tables for"
+  type        = map(any)
 }
 
 variable "tags" {

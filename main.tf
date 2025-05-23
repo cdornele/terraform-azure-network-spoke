@@ -1,5 +1,5 @@
 #--------------------------------------------*--------------------------------------------
-# Module: Azure Vritual Network Spoke
+# Module: Azure Virtual Network Spoke
 #--------------------------------------------*--------------------------------------------
 
 resource "azurecaf_name" "this" {
@@ -106,7 +106,7 @@ resource "azurerm_subnet_route_table_association" "subnet_rts_association" {
                           ]
   for_each              = {
                             for key, value in try(var.settings.subnet_settings.subnets, {}) : key => value
-                            if lookup(var.settings.route_tables_settings[value.rts_key], "is_Enabled", false) == true && try(value.rts_key, null) != null
+                            if lookup(var.settings.route_tables_settings[value.rts_key], "is_enabled", false) == true && try(value.rts_key, null) != null
                           }
   subnet_id             = module.subnets[each.key].subnet_id
   route_table_id        = module.rts.rts_obj[each.key].id

@@ -144,7 +144,7 @@ settings = {
         route_tables_settings = {
          empty_rts={}
          application-rts={
-          is_Enabled = true
+          is_enabled = true
           name     ="app"
           prefixes = ["az","eus"]
           suffixes = ["d", "01"]
@@ -171,7 +171,7 @@ settings = {
                     ]
         }
          data-rts={
-          is_Enabled = true
+          is_enabled = true
           name     ="data"
           prefixes = ["az","eus"]
           suffixes = ["d", "01"]
